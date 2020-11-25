@@ -4,25 +4,20 @@
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> • 
- <a herf="#-Desafio">Link do Desafio</a> • 
  <a href="#-layout">Layout</a> • 
- <a href="#-Project">link do projeto</a> • 
+ <a href="#-Projeto">Acesse o Projeto</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a>
 </p>
 
 ## 💻 Sobre o projeto
 
-Este e um projetinho que fiz concluindo a versão web de um dos desafios da [**DevChallenge**](https://www.devchallenge.com.br/) feito pela [**Lorenalgm**](https://github.com/Lorenalgm), o "codar" e um site de enpresa que desenvolve sites!!
-
-### Desafio
-
-[**Veja o desavio aqui**](https://github.com/Lorenalgm/codar)
+Este e um projetinho que fiz concluindo a versão web de um dos desafios da [**DevChallenge**](https://www.devchallenge.com.br/) feito pela [**Lorenalgm**](https://github.com/Lorenalgm), o [**codar**](https://github.com/Lorenalgm/codar) e um site de empresa que desenvolve sites, para acessa-lo [**Clique aqui**](https://codar-amber.vercel.app/)
 
 ## 🎨 Layout
 ![Alt Text](.github/website-codar.gif)
 
-### Projeto
+## Projeto
 
 [**Link do Projeto**](https://codar-amber.vercel.app/)
 
