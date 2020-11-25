@@ -12,7 +12,7 @@
 
 ## 📑 Sobre o projeto
 
-Este e um projetinho que fiz concluindo a versão web de um dos desafios da [**DevChallenge**](https://www.devchallenge.com.br/) feito pela [**Lorenalgm**](https://github.com/Lorenalgm), o [**codar**](https://github.com/Lorenalgm/codar) e um site de empresa que desenvolve sites, para acessa-lo [**Clique aqui**](https://codar-amber.vercel.app/)
+Este e um projetinho que fiz concluindo a versão web de um dos desafios da [**DevChallenge**](https://www.devchallenge.com.br/) feito pela [**Lorenalgm**](https://github.com/Lorenalgm), o [**codar**](https://www.devchallenge.com.br/detail/5ed47992adee277fae224a0b) e um site de empresa que desenvolve sites, para acessa-lo [**Clique aqui**](https://codar-amber.vercel.app/)
 
 ## 🎨 Layout
 ![Alt Text](.github/website-codar.gif)
