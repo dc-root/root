@@ -1,7 +1,7 @@
 <h4 align="center">
   <img src="https://i.ibb.co/wpnzvcs/codar-desktop.jpg" width="100%"/>
 </h4>
-
+---
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> • 
  <a href="#-layout">Layout</a> • 
