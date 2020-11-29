@@ -7,32 +7,31 @@
 </h2>
 
 <p align="center">
-  <a href="#-About">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Technology">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Clone-repository">Clone repository</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Contact">Contact</a>
+  <a href="#-Sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Clonar-repositorio">Clonar repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Contatos">Contato</a>
 </p>
 
 
 <p align="center" margin="0">
-  <img alt="html/css" src="https://wi.wallpapertip.com/wsimgs/31-312270_html-css-javascript-png.png" width="100%">
+  <img alt="html/css" src="https://www.appzminetech.com/wp-content/uploads/2018/10/HTMLCSS.png" width="100%">
 </p>
 
 
 ---
 
-## 📃 **About**
+## 📃 **Sobre**
 
-Hello, everything ok? 🤓 This repository I use to place all my small projects made only with html, css, javascript, other languages or framwork, feel free !!
+Ola tudo bem 🤓 Este repositório utilizarei para colocar todos os meus pequenos projetos e atividades de estudos feitas em html e css!!
 
-## 🛠 **Technology**
+## 🛠 **Tecnologias**
 
 - [**HTML**](https://www.w3schools.com/html/html_intro.asp)
 - [**CSS**](https://www.w3schools.com/css/css_intro.asp)
--  [**JS**](https://www.w3schools.com/js/js_intro.asp)
 
 
-## 🚀 **Clone repository**
+## 🚀 **Clonar Repositorio**
 
 ```
 # To clone, choose a location in your preferred root folder and enter the following command
@@ -45,7 +44,7 @@ cd HTML-CSS
 
 ```
 
-## 📲 **Contact**
+## 📲 **Contatato**
 
 - [**Linkedin**](https://www.linkedin.com/in/diego-caetano-487b171a5/)
 - [**GitHub**](https://github.com/Dev-DC-Silva/)
