@@ -1,0 +1,290 @@
+* {
+	padding:0;
+	margin:0;
+	vertical-align:baseline;
+	list-style:none;
+	border:0;
+}
+
+body {
+	color: #373a3c;
+	font-family: 'Roboto Mono', monospace;
+}
+
+a {
+	transition: .5s;
+}
+
+/** Sidebar */
+
+#sidebar {
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background-color: #006599;
+	padding-top: 40px;
+}
+#sidebar img {
+	width: 78px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#sidebar h1 {
+	color: #FFF;
+	font-size: 32px;
+	margin: 20px 0 30px 17px;
+}
+#sidebar a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+#sidebar a:hover {
+	color: #f4ef5e;
+}
+
+#sidebar li {
+	padding: 20px;
+}
+
+.sidebar-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+/* Contetudo */
+
+.content {
+	position: absolute;
+	left: 300px;
+	width: calc(100% - 300px);
+}
+
+.content h1, .content h2  {
+	color:#006599;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+.content h1 {
+	font-size: 48px;
+}
+
+.content h2 {
+	font-size: 35px;
+}
+
+section {
+	padding-left: 50px;
+}
+
+/* Bem Vindo */
+#sessao-bemvindo {
+	padding-left: 0;
+}
+
+.sessao-bemvindo-content {
+	padding-left: 50px;
+}
+
+#sessao-bemvindo .banner {
+	height: 500px;
+	background: url("../img/banner.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#sessao-bemvindo h1 {
+	margin-top: 70px;
+}
+
+#sessao-bemvindo::after, #sessao-sobre::after {
+	content: '';
+	display: block;
+	clear: both;
+	margin-bottom: 100px;
+}
+
+.sessao-minibainner {
+	width: 300px;
+	height: 440px;
+	background-image: url(../img/banner2.jpg);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.sessao-descricao {
+	position: absolute;
+	left: 370px;
+	padding-right: 30px;
+}
+
+.sessao-descricao p{
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+.sessao-bemvindo-btn, form input[type=submit] {
+	background-color: #006599;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px 40px;
+	transition: .5s;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+.sessao-bemvindo-btn:hover, form input[type=submit]:hover {
+	background-color: #2790C6;
+}
+
+/* Sessao Sobre*/
+
+#sessao-sobre .sessao-minibainner {
+	float: right;
+	margin-right: 50px;
+	background-image: url('../img/banner3.jpg');
+	
+}
+
+#sessao-sobre .sessao-descricao {
+	position: absolute;
+	left: 25px;
+	width: calc(100% - 400px);
+}
+
+/*  Sessao Galerias*/
+
+.banner-galeria {
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	height: 200px;
+}
+
+#sessao-Tipos-de-sorvetes1,
+#sessao-Tipos-de-sorvetes2,
+#sessao-Tipos-de-sorvetes3 {
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+
+.sorvetes1-imgs {
+	width: 18.4%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img1 {
+	background-image: url('../img/galeria1.jpeg');
+	margin-left: 0;
+}
+#img2 {
+	background-image: url('../img/galeria2.jpeg');
+}
+#img3 {
+	background-image: url('../img/galeria3.jpeg');
+}
+#img4 {
+	background-image: url('../img/galeria4.jpeg');
+}
+#img5 {
+	background-image: url('../img/galeria5.jpeg');
+	margin-right: 0;
+}
+
+.sorvetes2-imgs {
+	width: 32%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img6 {
+	background-image: url('../img/galeria6.jpeg');
+	margin-left: 0;
+}
+#img7 {
+	background-image: url('../img/galeria7.jpeg');
+}
+#img8 {
+	background-image: url('../img/galeria8.jpeg');
+	margin-right: 0;
+}
+
+.sorvetes3-imgs {
+	width: 23.5%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img9 {
+	background-image: url('../img/galeria9.jpeg');
+	margin-left: 0;
+}
+#img10 {
+	background-image: url('../img/galeria10.jpeg');
+}
+#img11 {
+	background-image: url('../img/galeria11.jpeg');
+}
+#img12 {
+	background-image: url('../img/galeria12.jpeg');
+	margin-right: 0;
+}
+
+/* Contatos */
+
+#form-cotatos {
+	width: 500px;
+}
+
+#form-contato input[type=text], #form-contato input[type=email], #form-contato textarea {
+	display: block;
+	border: 1px solid #006599;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 600px;
+	font-size: 16px;
+	font-family: 'Roboto Mono';
+}
+
+#form-contato input[type=text]:focus, #form-contato input[type=email]:focus, #form-contato textarea:focus {
+	border-color: #2790C6;
+}
+
+#form-contato textarea {
+	height: 150px;
+}
+
+#form-contato ::placeholder {
+	color: #2790C6;
+}
+
+#form-contato input[type=submit] {
+	margin-left: 0;
+	font-size: 16px;
+	width: 180px;
+}
+
+footer {
+	height: 100px;
+	padding-top: 150px;
+	color: #006599;
+}
+
+footer p{
+	text-align: center;
+	font-weight: bold;
+}

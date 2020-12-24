@@ -1,0 +1,275 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+   font-family: sans-serif;
+}
+
+html, body {
+   background-color: #EEF;
+
+   height: 100vh;
+   width: 100vw;
+}
+
+.container {
+   width: 100vw;
+   position: relative;
+
+   padding: 5em 0;
+}
+
+.contentmain {
+   min-height: 540px;
+   padding: 20px 0 20px 0;
+
+   margin: 0 auto;
+   max-width: 980px;
+
+   position: relative;
+
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-around;
+}
+
+.loginfo-container {
+   max-height: 320px;
+   height: auto;
+   width: 100px;
+
+   padding-right: 30px;
+   text-align: start;
+
+   flex: 1 1 auto;
+}
+.logo {
+   height: 200px;
+   padding: 90px 0 15px 0;
+   position: relative;
+
+   display: flex;
+   align-items: center;
+}
+
+.logo img {
+   margin-left: -30px;
+   width: 290px;
+}
+
+.loginfo-container h2 {
+   max-width: 490px;
+
+   padding-bottom: 20px;
+
+   font-weight: 500;
+   font-size: 28px;
+}
+
+.form-login {
+   flex: 1 1 auto;
+   height: 100%;
+   max-width: 400px;
+
+}
+
+.formulario {
+   margin-top: 40px;
+   padding: 20px 0 30px 0;
+
+   height: auto;
+   background-color: #FFF;
+   border-radius: 15px;
+   border: none;
+
+   box-shadow:  2px 2px 10px rgba(0, 0, 0, .2);
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.formulario form {
+   position: relative;
+
+   width: 100%;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.infordates {
+   width: 100%;
+   height: 120px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+
+   position: relative;
+}
+
+.input {
+   position: relative;
+   
+   min-width: 360px;
+   height: 55px;
+   padding: 20px;
+   font-size: 17px;
+   border-radius: 10px;
+   border: solid 1px rgba(0, 0, 0, .15);
+}
+
+.input:focus {
+   border-color: #1877f2;
+   box-shadow: 0 0 0 2px #e7f3ff;
+   outline: .01px #1877f2;
+
+}
+
+.button {
+   background-color: #187fff;
+   color: #FFF;
+
+   font-size: 21px;
+   font-weight: bold;
+   cursor: pointer;
+
+   border: none;
+   border-radius: 10px;
+
+   height: 50px;
+   min-width: 360px;
+   padding: 0 2em;
+   margin-top: 10px;
+   
+   transition: .3s;
+}
+
+.button:hover {
+   background-color: #176ed8;
+}
+
+.recover-password {
+   margin-top: 20px; 
+   color: #1877ff;
+   text-decoration: none;
+}
+.recover-password:hover {
+   text-decoration: underline;
+}
+
+.separetor {
+   width: calc(100% - 50px);
+   margin-top: 15px;
+   margin-bottom: 15px;
+   height: 1px;
+   border: 0 none;
+   background-color: rgba(0, 0, 0, .1);
+}
+
+.create-new-account {
+   background-color: #0bac18;
+   color: #FFF;
+
+   font-size: 17px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   line-height: 55px;
+
+   margin-top: 10px;
+
+   height: 55px;
+   width: 170px;
+   border-radius: 10px;
+}
+
+.criate-new-account:hover {
+   background-color: #0b7718;
+}
+
+
+.form-login p {
+   margin-top: 30px;
+   text-align: center;
+   font-size: 14px;
+}
+
+.form-login p a {
+   text-decoration: none;
+   color: #000;
+}
+
+.form-login p a:hover {
+   text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+   .loginfo-container {
+      max-height: 100%;
+      padding: 0;
+      flex: .7 1 auto;
+   }
+   .form-login {
+      flex: .4 1 auto;
+   }
+   .logo img {
+      margin-left: -25px;
+   }
+   .loginfo-container h2 {
+      max-width: 400px;
+   }
+}
+
+@media only screen and (max-width: 760px) {
+   *:not(html):not(body){
+      transform: scale(0.98);
+   }
+   .container {
+      padding: 0;
+      flex-direction: column;
+   }
+   .contentmain {
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .loginfo-container {
+      width: 100%;
+      height: 300px;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .logo {
+      padding: 0;
+      height: 100px;
+   }
+   .loginfo-container h2 {
+      padding: 0;
+      position: static;
+      text-align: center;
+      font-size: 25px;
+   }
+   .formulario {
+      margin: 0;
+   }
+   .form-login p{
+      margin-bottom: 30px;
+   }
+}
+
+@media only screen and (max-width: 390px) {
+   *:not(html):not(body){
+      transform: scale(0.9);
+   }
+}

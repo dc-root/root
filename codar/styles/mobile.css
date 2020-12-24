@@ -1,0 +1,220 @@
+@media (max-width: 700px) {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.top-bar {
+		height: auto;
+		padding: 0;
+		flex-direction: column;
+	}
+
+	.top-bar .logo {
+		margin: 0;
+		font-size: 70px;
+		padding: 25px 0 20px 0;
+	}
+	.top-bar .logo i {
+		margin: 0;
+	}
+
+	.top-bar .bar-options {
+		width: 100vw;
+		margin: 0;
+		padding: 0 30px 0 30px;
+
+		justify-content: space-evenly;
+	}
+
+	.top-bar .bar-options .buttons {
+		margin: 0;
+		font-size: 16px;
+		width: 100%;
+		font-size: 25px;
+	}
+
+	.top-bar .bar-options .bt-login {
+		display: none;
+	}
+
+	.Inicial-content {
+		height: calc(100vh - 95px);
+		width: auto;
+		margin-top: 20px;
+		align-items: start;
+	}
+	.Inicial-content .home {
+		width: auto;
+		padding: 0;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.Inicial-content .home img {
+		width: 270px;
+	}
+
+	.Inicial-content .home .content {
+		height: auto;
+		width: auto;
+
+		align-items: center;
+	}
+	.Inicial-content .home .content p {
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	.Inicial-content .home .content h2 {
+		font-size: 44px;
+	}
+
+	.Inicial-content .home .content .request-quote {
+		width: 300px;
+		height: 65px;
+		margin-top: 50px;
+
+		font-size: 20px;
+		border-radius: 16px;
+	}
+	main {
+		margin-top: 100px;
+	}
+
+	.service-box .form-end-img {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.service-box .form-end-img .list {
+		font-size: 28px;
+		order: 2;
+	}
+
+	.service-box .form-end-img .list {
+		margin: 40px 0 40px 0;
+	}
+
+	.service-box .form-end-img .img-fundo {
+		width: 280px;
+		order: 1;
+	}
+
+	.submit-input {
+		margin: 0;
+		padding: 0;
+
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.submit-input p {
+		font-size: 20px;
+	}
+
+	.submit-input div {
+		margin: 0;
+		padding: 10px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.submit-input input {
+		width: 350px;
+		height: 70px;
+
+		border-radius: 15px;
+		border: none;
+	}
+	.submit-input .phone {
+		margin: 0;
+		margin-bottom: 14px;
+		font-size: 20px;
+	}
+	.submit-input .submit {
+		font-size: 20px;
+	}
+
+	.comments-box {
+		width: auto;
+
+		flex-direction: column;
+		justify-content: center;
+	}
+	.comments-box .user-info {
+		width: 400px;
+		height: 200px;
+		padding: 0;
+		border-radius: 16px;
+		margin: 17px;
+	}
+	.comments-box .user-info .coment {
+		padding: 20px 20px 0 20px;
+	}
+	.comments-box .user-info .about-user {
+		padding: 0 0 0 120px;
+	}
+	.comments-box .user-info .about-user strong {
+		font-size: 20px;
+	}
+	.comments-box .user-info .about-user small {
+		font-size: 14px;
+	}
+
+	footer {
+		margin: 0;
+		height: 600px;
+		width: auto;
+		padding: 0;
+
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: start;
+	}
+
+	footer .satting {
+		margin: 0;
+	}
+
+	footer .codar-logo {
+		margin: 0;
+		width: 100%;
+		padding: 20px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	footer .codar-logo h2 i{
+		font-size: 60px;
+	}
+	footer .codar-logo p {
+		margin:0;
+		margin-top: 13px;
+		width: auto;
+		font-size: 23px;
+		text-align: initial;
+	}
+
+	footer .mobile {
+		margin: 20px 0 0 40px;
+	}
+
+	footer .network .icons {
+		width: 220px;
+		margin: 20px 0 0 0;
+		justify-content: space-between;
+	}
+
+	footer .network .icons a img {
+		width: 46px;
+	}
+}
