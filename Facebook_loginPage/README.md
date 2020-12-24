@@ -34,6 +34,7 @@ $ cd HTML_CSS_JS/Facebook_loginPage
 ## E Abrir o arquivo principal no seu navegar padrão
 
 ```
+
 ### ou apenas clique no link abaixo
 <br>
 
@@ -47,3 +48,9 @@ $ cd HTML_CSS_JS/Facebook_loginPage
 <img src="https://img.shields.io/github/languages/top/Diego-DevsS/datesList?color=blue&label=CSS&logo=CSS3&style=for-the-badge"/>
 
 ---
+
+## 🛠 Tecnologias
+
+* HTML
+* CSS
+
