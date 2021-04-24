@@ -30,6 +30,8 @@ $ cd codar
 
 ```
 
+[![Vercel](https://img.shields.io/static/v1?label=&message=VERCEL&color=black&style=for-the-badge&logo=VERCEL)](https://codar-one.vercel.app//)
+
 ## 🛠 Tecnologias
 
 * HTML
