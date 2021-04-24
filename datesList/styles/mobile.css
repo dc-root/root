@@ -1,0 +1,99 @@
+@media (max-width: 850px){
+   body {
+      width: 100%;
+      height: auto;
+   }
+
+   #h1 {
+      width: auto;
+      height: 200px;
+      margin-top: 30px;
+
+      font-size: 55px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   #horas {
+      width: 100%;
+      padding: 0 20px 0 20px;
+      position: static;
+
+      text-align: end;
+      font-size: 30px;
+   }
+   .containt {
+      height: auto;
+   
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+   
+      align-items: center;
+   }
+   .listCase {
+      order: 2;
+      width: calc(100vw - 80px);
+   
+      font-size: 25px;
+   }
+   .listCase #dataAtual {
+      position: static;
+      margin: 10px;
+   }
+   .listCase #dataAtual p{
+      top: 0;
+      left: 0;
+      width: 830px;
+      margin : 5px;
+      text-align: justify;
+      left: calc(100%);
+
+
+      animation-name: animation1;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+   }
+   @keyframes animation1{
+      0% {}
+      100% {transform: translate(calc(-100% - 560px))}
+   }
+
+   .insert-end-animation {
+      order: 1;
+      margin: 30px 0 30px 0;  
+      width: calc(100vw - 80px);
+      padding: 20px 0 20px 0;
+
+      height: auto;
+   
+      background-image: radial-gradient(circle, rgba(0,0,0, .3) 40%,black);
+   
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+   }
+   .insert-end-animation p {
+      position: static; 
+   }
+
+   button:hover{
+      transform: scale(1)
+   }
+   .containerForm {
+      display: none;
+   }
+   #animation {
+      position: static;
+      height: 10px;
+   }
+   #animationCirc {
+      bottom: 10px;
+   }
+
+}

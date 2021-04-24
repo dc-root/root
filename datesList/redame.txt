@@ -1,0 +1,68 @@
+
+- ABAUT
+
+Esse pequeno projeto foi feito para min estudar mais sobre Switch e case,
+nesse projeto utilizei case para cada hora do dia um wallpaper, mas não sendo o objetivo principal, 
+quando digitado uma data que seja comemorativa no campo imput date e lançado um about na parte direita e 
+um wallpaper daquela data especifica no background dp body, e para complementar fiz um relogio digital no canto superior direito da tela
+contendo horas, minutos e segundo e pra complementar mais ainda e mostrado também no canto superior direito abaixo da hora a sua data atual, espero que curtem!!
+
+Isso e um lista do que aprendi de novo(+n), tanto com css quanto js, e o que aprendi ainda mais(ms) com essas tecnologias!!
+
+css:
+	ms background-image: url();
+  ms @keyframes with animation
+	ms transform: rotate(deg)
+  +n transform: templateY();
+	ms display: flex;
+	ms linear-gradient();
+	ms rotate-gradient();
+	ms position: fixed;
+	ms text-shadow
+	ms box-shadow
+	ms :hover
+	ms :focus
+	
+javaScript:
+	focus -> switch (condicioanl)
+	+n new Date();
+	+n getHours();
+	+n getminutes();
+	+n getSeconds();
+	+n zero();
+	ms sobre function(Com parametros){}
+	+n criar elemento utilizando o innerHTML
+	ms event onclick()
+
+Obs: Em questão de datas comemorativas não coloquei todas... lembrando que fiz para praticar, caso queira implementar mais datas ou melhorar o projeto, fique a vontade para clonar(**acora para clone**) o repositório
+
+As datas que implementei Foram:
+- "01 / 01 / 2021", // Ano novo
+- "16 / 02 / 2021", // Carnaval
+- "08 / 03 / 2021", // Dia internacional da mulher
+- "02 / 04 / 2021", // Sexta-fera Santa | Sexta feira da Paixão
+- "04 / 04 / 2021", // Pascoa
+- "21 / 04 / 2021", // Tiradentes
+- "22 / 04 / 2021", // Descobrimento do Brasil
+- "19 / 04 / 2021", // Dia do indio
+- "01 / 05 / 2021", // Dia do Trabalho
+- "09 / 05 / 2021", // Dia das Mães
+- "03 / 06 / 2021", // Corpus Chtist
+- "12 / 06 / 2021", // Dia dos Namorados
+- "09 / 07 / 2021", // Revolução Constitucionalista
+- "08 / 08 / 2021", // Dia dos Pais
+- "22 / 08 / 2021", // Dia do flouclore
+- "25 / 08 / 2021", // Soldado
+- "07 / 09 / 2021", // Independência do Brasil
+- "13 / 09 / 2021", // DIA DO PROGRAMADOR
+- "21 / 09 / 2021", // Dia da Arvore
+- "22 / 09 / 2021", // Inicio da Primavera
+- "10 / 10 / 2021", // Dia da criança
+- "12 / 10 / 2021", // Nossa Senhora apareceda
+- "15 / 10 / 2021", // Dia do Professor
+- "31 / 10 / 2021", // Dia de Bruxas | Halloween
+- "02 / 11 / 2021", // Dia de finados
+- "15 / 11 / 2021", // Dia da Proclamação da Republica
+- "20 / 11 / 2021", // Dia da Conciencia Negra
+- "26 / 11 / 2021", // Blackfride
+- "25 / 12 / 2021"  // Natal

@@ -1,0 +1,346 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+   font-family: "Lobster Two";
+
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+::-webkit-scrollbar {
+   border-radius: 10px;
+   height: 100%;
+   background-color:  rgba(0, 0, 0, 0.0);
+   width: 5px;
+}
+::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   height: 10px;
+   background-color:  rgba(0, 0, 0, .7);
+}
+body {
+
+   width: 100vw;
+   height: 100vh;
+     
+   position: relative;
+   
+   background-image: url(wallpaperPadrão.jpg);
+
+   transition: background 6s;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-shadow: 2px 2px 2px #000;
+
+}
+h2 {
+   width: 100%;
+   height: auto;
+   padding: 20px;
+
+   text-align: center;
+   font-size: 50px;
+   color: #fff;
+   text-shadow: 2px 2px 2px #000;
+}
+.containt {
+   height: 100%;
+   width: 100%;
+
+   display: flex;
+   padding: 20px;
+
+   align-items: flex-start;
+   justify-content: space-evenly;
+}
+
+.insert-end-animation {
+   height: 550px;
+   border-radius: 10px;
+   min-width: 340px;
+   width: auto;
+
+   background-image: linear-gradient(to top, rgba(0,0,0, .3) 40%,black);
+   box-shadow: 1px 1px 5px black;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+}
+.insert-end-animation p {
+   bottom: 250px;
+   max-width: 300px;
+   width: auto;
+   margin-top: 20px;
+   padding: 20px;
+   text-align: justify;
+   border-radius: 10px;
+   color: yellow;
+   font-size: 16px;
+   background: blueviolet;
+   font-family: "Roboto";
+   box-shadow: 2px 2px 10px yellow;
+
+   animation-name: animationp;
+   animation-duration: 8s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+}
+.insert-end-animation p {
+   bottom: 250px;
+   width: 380px;
+   position: fixed;
+   padding: 20px;
+   text-align: justify;
+   border-radius: 10px;
+   color: yellow;
+   font-size: 19px;
+   background: #000;
+   font-family: "Roboto";
+   box-shadow: 2px 2px 10px yellow;
+
+
+   animation-name: animationp;
+   animation-duration: 8s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+}
+.insert {
+   width: 100%;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#calendario {
+   width: 300px;
+   height: 60px;
+   padding: 20px;
+   border-radius: 10px;
+
+   background-color: blueviolet;
+   color: #fff;
+   
+   font-size: 20px;
+   transition: 1s;
+
+}
+
+button {
+   width: 300px;
+   height: 60px;
+   margin-top: 40px; 
+   
+   border: none;
+   border-radius: 10px;
+
+   font-size: 25px;
+   background-color: blueviolet;
+   color: #fff;
+   transition: 1s;
+
+}
+button:focus, input{
+   border: none;
+   outline: 0;
+   box-shadow: 0 0 0 0;
+}
+button:hover{
+   transform: scale(1.1);
+}
+.formDates {
+   max-width: 460px;
+   width: auto;
+   height: 100%;
+   margin: 0 28px 0 20px;
+
+   padding: 20px;
+   font-size: 30px;
+   
+   border-radius: 10px;
+   background-image: linear-gradient(to top, rgba(0,0,0, .3) 40%,black);
+   color: #fff;
+   box-shadow: 1px 1px 5px black;
+
+}
+
+#listDate {
+   width: 448px;
+   max-height: 450px;
+
+   padding-bottom: 10px;
+   border: solid 2px;
+   border-color: blueviolet;
+   border-radius: 10px;
+   color: #fff;
+   box-shadow: 1px 1px 5px black;
+   
+   overflow: auto;
+}
+
+#listDate li {
+   padding: 10px 30px 0 30px ;
+   width: 100%;
+   cursor: pointer;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#listDate li img{
+   width: 18px;
+   height: 18px;
+
+   cursor: pointer;
+}
+
+.listCase {
+   width: 400px;
+   min-width: 360px;
+
+   max-height: 550px;
+   overflow: auto;
+   padding: 20px;
+   right: 0;
+
+   border-radius: 10px;
+   font-size: 25px;
+   background-image: radial-gradient(circle, rgba(0,0,0, .3) 40%,black);
+
+   color: #fff;
+   box-shadow: 1px 1px 5px black;
+
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+
+}
+.listCase p {
+   font-size: 30px;
+   color: yellow;
+   text-shadow: 2px 2px 5px black;
+   
+}
+
+.listCase li {
+   margin: 10px;
+   text-align: justify;
+}
+
+#animationCirc {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: yellow;
+   position: fixed;
+   
+   bottom: 20px;
+
+   animation-name: animationcirc;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+
+   animation-fill-mode: forwards;
+
+}
+
+#animation {
+   height: 20px;
+   width: 300px;
+   border-radius: 10px;
+   bottom: 150px;
+   position: fixed;
+
+   border: solid 1px yellow;
+   animation-name: animationbubble;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+}
+
+#horas {
+   padding: 20px;
+   text-align: end;
+   position: fixed;
+   top: 0;
+   right: 100px;
+
+   font-size: 50px;
+   color: #fff;
+   text-shadow: 2px 2px 2px #000;
+}
+
+#dataAtual {
+   text-align: start;
+   position: fixed;
+   top: 95px;
+
+   font-size: 20px;
+   color: #fff;
+   text-shadow: 2px 2px 2px #000;
+}
+
+#dataAtual p{
+   width: 350px;
+   top: 60px;
+   left : 60px;
+   position: fixed;
+   text-align: justify;
+   font-size: 16px;
+}
+
+footer {
+   width: 100%;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+footer p {
+   font-size: 16px;
+   font-weight: bold;
+   color: #fff;
+   font-family: "Roboto";
+}
+
+@keyframes animationp {
+   0% { }
+   94% {transform: rotate(0deg);}
+   95% { transform: rotate(3deg)}
+   96% {transform: rotate(-3deg)}
+   98% {transform: rotate(3deg)}
+   99% {transform: rotate(-3deg)}
+   100% { }
+}
+
+@keyframes animationcirc {
+   0% { }
+   40% {transform:  translateX(280px)}
+   70% {transform: translateX(73px)}
+   90% {transform:  translateX(184px)}
+   100% { }
+}
+
+@keyframes animationbubble{
+   0% { }
+   30% {transform: rotate(10deg)}
+   60% {transform: rotate(-20deg)}
+   80% {transform: rotate(10deg)}
+   93% { transform: rotate(-20deg);}
+   100% { }
+}
