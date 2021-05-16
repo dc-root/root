@@ -21,10 +21,10 @@ Nesse simples projeto utilizando HTML5 juntamento com o CSS3, foi feito uma pagi
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/Dev-DC-Silva/UI-Discord
+$ git clone https://github.com/Dev-DC-Silva/SimpleHtmlCssJs/Blog_Sorveteria
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd UI-Discord
+$ cd Blog_Sorveteria
 
 # Execute a aplicação em modo de desenvolvimento
 $ google-chrome index.html
