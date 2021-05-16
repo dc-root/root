@@ -26,10 +26,10 @@ O [**Facebook**](https://www.facebook.com/) é a maior rede social do mundo, com
 
 ```bash
 ## Primeiro e preciso clonar este repositóro na sua maquina
-$ git clone https://github.com/Diego-DevsS/HTML_CSS_JS/Facebook_loginPage
+$ git clone https://github.com/Diego-DevsS/htmlCssJs/Facebook_loginPage
 
 ## Apos clonar o repositorio e so entrar na pasta
-$ cd HTML_CSS_JS/Facebook_loginPage
+$ cd htmlCssJs/Facebook_loginPage
 
 ## E Abrir o arquivo principal no seu navegar padrão
 
