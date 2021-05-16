@@ -1,5 +1,5 @@
 <h1 align="center">
-     HTML - CSS
+     HTML - CSS - JS
 </h1>
 
 <h2 align="center">
