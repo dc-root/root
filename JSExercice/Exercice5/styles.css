@@ -1,0 +1,95 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100vh;
+   background:#EEE;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+h3 {
+   width: 100%;
+   height: auto;
+   padding: 20px 0 20px 50px;
+  
+   font-size: 40px;
+   color: #000;
+}
+
+#demo {
+   padding: 0 40px 0 40px ;
+   width: 100%;
+   height: auto;
+}
+
+#demo fieldset {
+   margin-top: 30px;
+   padding: 30px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#demo fieldset legend{
+   font-size: 25px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+#demo fieldset .title {
+   width: 100%;
+   height: 40px;
+   background-color: rgb(32, 28, 36);
+   color: #EEE;
+   text-transform: uppercase;
+   font-size: 20px;
+   text-align: end;
+   padding: 10px 30px 10px 0;
+
+   border-radius: 10px 10px 0 0;
+}
+
+#demo .bash {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+#demo fieldset textarea {
+   width: 600px;
+   height: 360px;
+   resize: none;
+   padding: 20px;
+   border-radius: 0 0 10px 10px;
+
+   background-color: rgb(40, 36, 46);
+   color: #ccc;
+   border: 0;
+
+   font-size: 18px;
+}
+
+#demo fieldset textarea:focus {
+   border: 0;
+   outline: none;
+}
+
+#demo fieldset #result {
+   width: 600px;
+   height: 360px;
+   background-color: #ccc;
+   padding: 20px;
+   overflow: auto;
+
+   font-size: 20px;
+
+   border-radius: 0 0 10px 10px;
+}

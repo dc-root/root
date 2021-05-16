@@ -1,0 +1,43 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.titulo {
+   width: 1000px;
+   height: auto;
+   font-size: 38px;
+   margin-bottom: 40px;
+   color: #000;
+}
+
+#Titulo {
+   width: 1000px;
+   height: auto;
+   padding: 20px;
+   font-size: 38px;
+   margin-bottom: 40px;
+   color: #000;
+   border: solid 1px;
+}
+
+
+button {
+   width: 100px;
+   height: 60px;
+   margin: 20px;
+
+   border: none;
+   border-radius: 50px;
+   background-color: rgb(138, 43, 226);
+   color: #fff;
+}

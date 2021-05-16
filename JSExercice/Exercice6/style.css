@@ -1,0 +1,125 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+html, body {
+   width: 100%;
+   min-height: 100vh;
+
+   background-color: #DDD;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+h2 {
+   position: absolute;
+   justify-self: start;
+   align-self: flex-start;
+   font-size: 50px;
+   top: 10vh;
+   left: 10vw;
+}
+h3 {
+   font-size: 30px;
+   margin: 15px 0;
+}
+section {
+   margin: 15px 0;
+}
+.boxP {
+   width: auto;
+   height: auto;
+   position: relative;
+}
+
+.boxP .demo {
+   width: 600px;
+   min-height: 100px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+p {
+   width: 600px;
+   font-size: 30px;
+   transition: 1s;
+   text-align: justify;
+   margin-bottom: 20px;
+}
+
+small {
+   width: 90px;
+   height: 30px;
+   text-align: center;
+   font-size: 20px;
+   bottom: 70px;
+   right: 1px;
+   position: absolute;
+}
+
+small::after {
+   width: 0;
+   height: 0;
+   border-top: 100px solid transparent;
+   border-left: 80px solid black;
+}
+
+input {
+   width: 400px;
+   height: 60px;
+   padding: 10px 15px;
+
+   background-image: linear-gradient(to right, black 30%, rgb(61, 5, 114));
+   color: #FFF;
+   
+   border-radius: 15px 0 0 15px;
+   font-size: 20px;
+   
+   border: 0 none;
+   outline: none;
+
+}
+
+#btn-default {
+   width: 200px;
+   height: 60px;
+
+   border: none;
+   border-radius: 0 15px 15px 0;
+
+   cursor: pointer;
+   font-size: 20px;
+   background: rgb(61, 5, 114);
+   color: #FFF;
+
+   text-align: center;
+
+   transition: .4s;
+
+   border: 0 none;
+   outline: none;
+}
+
+#btn-default:hover {
+   background-color:  rgb(45, 3, 85);
+   transition: .4s;
+}
+
+.inputButton {
+   height: 100%;
+   width: 100%;
+   border-radius: 10px;
+
+   display: flex;
+   align-items: center;
+   
+   margin-top: 20px;
+}
