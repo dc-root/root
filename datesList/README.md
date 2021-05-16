@@ -111,7 +111,7 @@ Obs: Em questão de datas comemorativas não coloquei todas... lembrando que fiz
 
 ```
 # Para clonar esse repositorio:
-$ git clone https://github.com/Diego-DevsS/datesList
+$ git clone https://github.com/Diego-DevsS/SimpleHtmlCssJs/datesList
 
 # E abrir a pasta na sua maquina local:
 cd datesList
