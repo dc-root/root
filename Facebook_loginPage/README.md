@@ -29,7 +29,7 @@ O [**Facebook**](https://www.facebook.com/) é uma das maiores rede social do mu
 $ git clone https://github.com/Diego-DevsS/htmlCssJs/Facebook_loginPage
 
 ## Apos clonar o repositorio e so entrar na pasta
-$ cd htmlCssJs/Facebook_loginPage
+$ cd SimpleHtmlCssJs/Facebook_loginPage
 
 ## E Abrir o arquivo principal no seu navegar padrão
 
