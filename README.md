@@ -15,11 +15,9 @@
 
 
 <p align="center">
-
-![image alt ><](https://user-images.githubusercontent.com/68944586/118406624-f0e44f80-b652-11eb-8d70-c728ef718e92.png)
-     
+  <img src="https://user-images.githubusercontent.com/68944586/118406624-f0e44f80-b652-11eb-8d70-c728ef718e92.png" width="500" alt="image">
 </p>
-
+     
 ---
 
 ## 📃 **Sobre**
