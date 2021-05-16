@@ -28,6 +28,7 @@ Ola tudo bem 🤓 Este repositório utilizarei para colocar todos os meus pequen
 
 - [**HTML**](https://www.w3schools.com/html/html_intro.asp)
 - [**CSS**](https://www.w3schools.com/css/css_intro.asp)
+- [**JS**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
 ## 🚀 **Clonar Repositorio**
