@@ -21,7 +21,7 @@ Este e um projetinho que fiz concluindo a versão web de um dos desafios da [**D
 
 ```bash
 ## Primeiro e preciso clonar este repositóro na sua maquina
-$ git clone https://github.com/Diego-DevsS/HTML-CSS/codar.git
+$ git clone https://github.com/Diego-DevsS/SimpleHtmlCssJs/codar.git
 
 ## Apos clonar o repositorio e so entrar na pasta
 $ cd codar
