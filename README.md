@@ -35,10 +35,10 @@ Ola tudo bem 🤓 Este repositório utilizarei para colocar todos os meus pequen
 
 ```
 # To clone, choose a location in your preferred root folder and enter the following command
-$ git clone https://github.com/Diego-DevsS/HTML-CSS
+$ git clone https://github.com/Diego-DevsS/htmlCssJs
 
 # After that enter the folder
-cd HTML-CSS
+cd ./htmlCssJs
 
 # Now and just enter the project of your choice
 
