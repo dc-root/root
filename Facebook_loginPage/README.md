@@ -13,7 +13,7 @@
 
 ## 💻 Sobre o projeto
 
-O [**Facebook**](https://www.facebook.com/) é a maior rede social do mundo, com mais de 2 bilhões de usuários ativos. De acordo com [**Mark Zuckerberg**](https://www.facebook.com/zuck), o objetivo da rede social é conectar pessoas, criando um mundo mais transparente.Nesse projetinho fiz a pagina de login do facebook com responsividade para dasktop, tablets e dispositivos moveis.
+O [**Facebook**](https://www.facebook.com/) é uma das maiores rede social do mundo, com mais de 2 bilhões de usuários ativos. De acordo com [**Mark Zuckerberg**](https://www.facebook.com/zuck), o objetivo da rede social é conectar pessoas, criando um mundo mais transparente.Nesse projetinho fiz a pagina de login do facebook com responsividade para dasktop, tablets e dispositivos moveis.
 
 ## 🎨 Layout
 <div align="center">
