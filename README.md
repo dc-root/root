@@ -14,10 +14,11 @@
 </p>
 
 
-<p align="center" margin="0">
-  <img alt="html/css" src="https://www.appzminetech.com/wp-content/uploads/2018/10/HTMLCSS.png" width="100%">
-</p>
+<p align="center">
 
+![image alt ><](https://user-images.githubusercontent.com/68944586/118406624-f0e44f80-b652-11eb-8d70-c728ef718e92.png)
+     
+</p>
 
 ---
 
