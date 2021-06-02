@@ -48,7 +48,7 @@ cd ./htmlCssJs
 
 - [**Linkedin**](https://www.linkedin.com/in/diego-caetano-487b171a5/)
 - [**GitHub**](https://github.com/Dev-DC-Silva/)
-- [**E-mail**](https://gmail.com) - [**diegocaetano444@gmail.com**](https://gmail.com)
+- [**E-mail**](mailto:diegocaetano444@outlook.com) - [**diegocaetano444@outlook.com**]
 
 
 ---
