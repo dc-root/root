@@ -22,7 +22,7 @@
 
 ## 📃 **Sobre**
 
-Ola tudo bem 🤓 Este repositório utilizarei para colocar todos os meus pequenos projetos e atividades de estudos feitas em html e css!!
+🤓 - Este repositório utilizo para colocar todos os meus pequenos projetos e atividades de estudos feitas em html, css e js!!
 
 ## 🛠 **Tecnologias**
 
