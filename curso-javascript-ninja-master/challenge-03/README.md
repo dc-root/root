@@ -1,3 +1,7 @@
+# Desafio da semana #3
+
+Nesse exercício, você está livre para escolher os nomes para suas variáveis e funções! :smile:
+
 ```js
 // Declarar uma variável qualquer, que receba um objeto vazio.
 
