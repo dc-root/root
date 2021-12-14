@@ -25,10 +25,10 @@
 
 ## 📃 **About**
 
-Esse pequeno projeto foi feito para min estudar mais sobre Switch e case,
+Esse pequeno projeto fiz para estudar mais sobre Switch e case,
 nesse projeto utilizei case para cada hora do dia um wallpaper, mas não sendo o objetivo principal, 
-quando digitado uma data que seja comemorativa no campo imput date e lançado um about na parte direita e 
-um wallpaper daquela data especifica no background dp body, e para complementar fiz um relogio digital no canto superior direito da tela
+quando digitado uma data que seja comemorativa no campo imput date e lançado um about na parte direita com informações equivalentes a data especifica e 
+um wallpaper daquela data especifica no background do body, e para complementar fiz um relogio digital no canto superior direito da tela
 contendo horas, minutos e segundo e pra complementar mais ainda e mostrado também no canto superior direito abaixo da hora a sua data atual, espero que curtem!!
 
 Isso e um lista do que aprendi de novo(✚), tanto com css quanto js, e o que aprendi ainda mais(✔) com essas tecnologias!!
