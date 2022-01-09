@@ -2,10 +2,6 @@
      HTML - CSS - JS
 </h1>
 
-<h2 align="center">
-  Projects
-</h2>
-
 <p align="center">
   <a href="#-Sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
