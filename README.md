@@ -20,10 +20,6 @@
      
 ---
 
-## 📃 **Sobre**
-
-🤓 - Este repositório utilizo para colocar todos os meus pequenos projetos e atividades de estudos feitas em html, css e js!!
-
 ## 🛠 **Tecnologias**
 
 - [**HTML**](https://www.w3schools.com/html/html_intro.asp)
