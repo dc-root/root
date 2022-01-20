@@ -98,9 +98,9 @@ Obs: Em questão de datas comemorativas não coloquei todas... lembrando que fiz
 
 ## 🔨 **Tecnologias**
 
-<img src="https://img.shields.io/github/languages/top/Diego-DevsS/datesList?color=red&label=HTML&logo=HTML5&style=for-the-badge"/>
-<img src="https://img.shields.io/github/languages/top/Diego-DevsS/datesList?color=blue&label=CSS&logo=CSS3&style=for-the-badge"/>
-<img src="https://img.shields.io/github/languages/top/Diego-DevsS/datesList?color=yellow&label=JAVASCRIPT&logo=javascript&style=for-the-badge"/>
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 
 **Utilitários**
