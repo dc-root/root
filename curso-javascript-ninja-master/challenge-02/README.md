@@ -23,17 +23,17 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-function Add() {
-  newVar = 'VALOR';
-  return newVar
+function Add(valor) {
+  newVar = valor;
+  return `O valor da variável agora é ${newVar}`
 }
 
 // Invoque a função criada acima.
-Add() // VALOR
+Add(10);
 
 // Qual o retorno da função? (Use comentários de bloco).
 /**
- * VALOR
+ * O valor da variável agora é 10
  */
 
 /*
@@ -54,10 +54,10 @@ function check(arg1, arg2, arg3) {
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
-check(2, 2) // Preencha todos os valores corretamente!
+check(1,2) // Preencha todos os valores corretamente!
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-check(2, 2) // 42
+check(3, 2, 4) // 242
 
 /*
 Crie uma função com as seguintes características:
@@ -70,20 +70,16 @@ Crie uma função com as seguintes características:
 */
 
 function checkValue(arg1, arg2, arg3) {
-  if (!arg1 && !arg2 && !arg3) {
-    return false
-    
-  } else if(!arg2 && !arg3) {
-    return arg1
-
-  } else if (!arg3) {
-    return arg1 + arg2
-
+  if (arg1 && !arg2 && !arg3) {
+      return arg1;
+  } else if (arg1 && arg2 && !arg3) {
+      return arg1 + arg2;
   } else if (arg1 && arg2 && arg3) {
-    return (arg1 + arg2) * arg3
-
+     return arg1 + arg2 / arg3;
+  } else if (!arg1 && !arg2 && !arg3) {
+     return false;
   } else {
-    return null
+    return null;
   }
 }
 
