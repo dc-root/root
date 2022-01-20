@@ -3,8 +3,6 @@
 Nesse exercício, você está livre para escolher os nomes para suas variáveis e funções! :smile:
 
 ```js
-// Declarar uma variável qualquer, que receba um objeto vazio.
-
 var pessoa = {};
 
 
@@ -137,7 +135,7 @@ var pessoa = {
 
 /*
 Crie um método chamado `mostrarIdade`, que retorne a frase:
-- ""
+- "Olá, eu tenho [IDADE] anos!"
 */
 var pessoa = {
     nome: 'Diego',
@@ -167,7 +165,7 @@ var pessoa = {
 
 /*
 Crie um método chamado `mostrarPeso`, que retorne a frase:
-- ""
+- "Eu peso [PESO] Kg"
 */
 var pessoa = {
     nome: 'Diego',
@@ -240,25 +238,25 @@ Agora vamos brincar um pouco com o objeto criado:
 Qual o nome completo da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.name // Diego
+pessoa.nameCompleto // Olá! Meu nome é Diego Silva!
 
 /*
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.idade // 20 
+pessoa.mostrarIdade // Olá, eu tenho 20 anos!
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.peso // 50
+pessoa.mostrarPeso // Eu peso 50Kg
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.altura // 1.67
+pessoa.mostrarAltura // Minha altura é 1.67m
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
@@ -272,7 +270,7 @@ Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
 comentários inline ao lado da instrução para mostrar qual foi a resposta
 retornada)
 */
-pessoa.mostrarIdade() // 23
+pessoa.idade // 23
 
 /*
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
@@ -291,7 +289,7 @@ pessoa.andando // true
 /*
 Se a pessoa ainda está andando, faça-a parar.
 */
-pesso.parar()
+pesso.parar() // false
 
 /*
 E agora: a pessoa ainda está andando? (Use uma instrução para responder e
@@ -353,13 +351,18 @@ var pessoa = {
     mostrarAltura: function () {
         return `Minha altura é ${this.altura}m`
     },
-    apresentacao: function(){
-        return `Olá, eu sou o ${this.nome} ${this.sobrenome}, tenho ${this.idade} anos, ${this.altura}, meu peso é ${this.peso} e, só hoje, eu já caminhei ${this.caminhouQUantosMetros} metros!`
+    apresentacao: function() {
+      let subj, singId, singM;
+      
+      if (this.sexo == "Feminino") subj="a";
+      if (this.idade > 1) singId="s"
+      if (this.idade > 1) singM="s"
+      
+      return `Olá, eu sou ${subj} ${this.nome} ${this.sobrenome}, tenho ${this.idade} ano${sing}, ${this.altura}, meu peso é ${this.peso} e, só hoje, eu já caminhei ${this.caminhouQUantosMetros} metro${sing}!`
     }
 }
 
 
 // Agora, apresente-se ;)
-
-pessoa.apresentacao();
+console.log(pessoa.apresentacao());
 ```
