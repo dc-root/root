@@ -1,6 +1,6 @@
 <h1 align="center">Social Tree<h1>
  
-<img src=".github/page.png"/>
+<img src="https://i.imgur.com/ZZdxJUX.png" />
 
 <br>
 
