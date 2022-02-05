@@ -1,10 +1,7 @@
 <h1 align="center">Página de Receita<h1>
 
-## 🧩 **Layout**
 
 ![image](.github/page.png)
-
-<br>
 
 ## 📔 **Test the Project**
 
