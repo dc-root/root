@@ -25,13 +25,9 @@
 
 ## 📃 **About**
 
-Esse pequeno projeto fiz para estudar mais sobre Switch e case,
-nesse projeto utilizei case para cada hora do dia um wallpaper, mas não sendo o objetivo principal, 
-quando digitado uma data que seja comemorativa no campo imput date e lançado um about na parte direita com informações equivalentes a data especifica e 
-um wallpaper daquela data especifica no background do body, e para complementar fiz um relogio digital no canto superior direito da tela
-contendo horas, minutos e segundo e pra complementar mais ainda e mostrado também no canto superior direito abaixo da hora a sua data atual, espero que curtem!!
+Esse pequeno projeto foi feito com objetivo de estudar mais sobre Switch e case, neste projeto e utilizado case para cada hora do dia e renderizado um wallpaper, mas não sendo o objetivo principal, quando digitado uma data que seja comemorativa no campo do `&lt;input type=date&gt;` e lançado algumas informações da data na parte direita e um wallpaper daquela data especifica e renderizado no background da pagina, e para complementar fiz um relógio digital que  pode ser visto no canto superior direito da tela contendo horas, minutos e segundo e abaixo a sua data atual.
 
-Isso e um lista do que aprendi de novo(✚), tanto com css quanto js, e o que aprendi ainda mais(✔) com essas tecnologias!!
+Isso e um lista do que aprendi de novo(✚), tanto com css quanto em javascript, e que foram aplicado:
 
 - **css**:
 	- ✔ background-image: url();
@@ -55,7 +51,7 @@ Isso e um lista do que aprendi de novo(✚), tanto com css quanto js, e o que ap
 	- ✚ getSeconds();
 	- ✚ zero();
 	- ✔ Array
-	- ✔ sobre function(Com parametros){}
+	- ✔ sobre function(Com parametros)
 	- ✚ criar elemento utilizando o innerHTML
 	- ✔ event onclick()
 

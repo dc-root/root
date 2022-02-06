@@ -10,15 +10,8 @@ var mes = ("0" + (data.getMonth() + 1)).slice(-2);
 var ano4 = data.getFullYear();
 var Today = dia + ' / ' + (mes) + ' / ' + ano4;
 
-// message containing today's date
-let H = document.getElementById("dataAtual")
-H.textContent = Today;
-H.innerHTML += `<p>😱 Nossa Hoje já e ${dia}/${mes}, Todos os dias são especiais e inspiradores mas o de hoje vai ficar marcado para sempre na memória! 🙂</p>`
-
-
 // click the add button
 function addDate() {
-   
    var inputValue = document.getElementById("calendario").value.split('-').reverse().join(' / ');
 
    // new element in date list
