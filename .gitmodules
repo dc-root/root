@@ -1,0 +1,6 @@
+[submodule "Social_Tree_Discover"]
+	path = Social_Tree_Discover
+	url = https://github.com/Diego-DevsS/Social_Tree_Discover.git
+[submodule "Recipe_Page_Discover"]
+	path = Recipe_Page_Discover
+	url = https://github.com/Diego-DevsS/Recipe_Page_Discover
