@@ -4,3 +4,6 @@
 [submodule "Recipe_Page_Discover"]
 	path = Recipe_Page_Discover
 	url = https://github.com/Diego-DevsS/Recipe_Page_Discover
+[submodule "ADS"]
+	path = ADS
+	url = https://github.com/Diego-DevsS/ADS.git
