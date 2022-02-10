@@ -7,3 +7,9 @@
 [submodule "ADS"]
 	path = ADS
 	url = https://github.com/Diego-DevsS/ADS.git
+[submodule "discover-recipe-page"]
+	path = discover-recipe-page
+	url = https://github.com/Diego-DevsS/discover-recipe-page
+[submodule "discover-social-tree"]
+	path = discover-social-tree
+	url = https://github.com/Diego-DevsS/discover-social-tree
