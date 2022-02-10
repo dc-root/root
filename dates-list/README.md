@@ -19,13 +19,13 @@
 
 ---
 
-![Alt Text](.github/listDate.gif)
+![Alt Text](https://i.imgur.com/bRL1I3L.png)
 
 ---
 
 ## 📃 **About**
 
-Esse pequeno projeto foi feito com objetivo de estudar mais sobre Switch e case, neste projeto e utilizado case para cada hora do dia e renderizado um wallpaper, mas não sendo o objetivo principal, quando digitado uma data que seja comemorativa no campo do `&lt;input type=date&gt;` e lançado algumas informações da data na parte direita e um wallpaper daquela data especifica e renderizado no background da pagina, e para complementar fiz um relógio digital que  pode ser visto no canto superior direito da tela contendo horas, minutos e segundo e abaixo a sua data atual.
+Esse pequeno projeto foi feito com objetivo de estudar mais sobre Switch e case, neste projeto e utilizado case para cada hora do dia e renderizado um wallpaper, mas não sendo o objetivo principal, quando digitado uma data que seja comemorativa no campo do `<input type=date>` e lançado algumas informações da data na parte direita e um wallpaper daquela data especifica e renderizado no background da pagina, e para complementar fiz um relógio digital que  pode ser visto no canto superior direito da tela contendo horas, minutos e segundo e abaixo a sua data atual.
 
 Isso e um lista do que aprendi de novo(✚), tanto com css quanto em javascript, e que foram aplicado:
 
@@ -60,7 +60,7 @@ Obs: Em questão de datas comemorativas não coloquei todas... lembrando que fiz
 
 ### Para testar a aplicação segue o link:
 
-[![Vercel](https://img.shields.io/static/v1?label=&message=VERCEL&color=black&style=for-the-badge&logo=VERCEL)](https://date-list.vercel.app/)
+[![Vercel](https://img.shields.io/static/v1?label=&message=VERCEL&color=black&style=for-the-badge&logo=VERCEL)](https://root-phi.vercel.app/)
 
 **As datas que implementei Foram:**
 - "01 / 01 / 2021" ➬ Ano novo 🎉 🧨
