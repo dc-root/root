@@ -13,3 +13,9 @@
 [submodule "discover-social-tree"]
 	path = discover-social-tree
 	url = https://github.com/Diego-DevsS/discover-social-tree
+[submodule "discover-portfolio"]
+	path = discover-portfolio
+	url = git@github.com:dc7devs/discover-portfolio.git
+[submodule "discover-login-form"]
+	path = discover-login-form
+	url = git@github.com:dc7devs/discover-login-form.git
