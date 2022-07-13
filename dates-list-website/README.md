@@ -3,9 +3,9 @@
 </h1>
 <div align="center">
 	
-![Languages](https://img.shields.io/github/languages/count/Diego-DevsS/datesList?style=social)
-![followers](https://img.shields.io/github/followers/Diego-DevsS?style=social)
-![Forks](https://img.shields.io/github/forks/Diego-DevsS/datesList?style=social)
+![Languages](https://img.shields.io/github/languages/count/dc7devs/root?style=social)
+![followers](https://img.shields.io/github/followers/dc7devs?style=social)
+![Forks](https://img.shields.io/github/forks/dc7devs/root?style=social)
 </div>
 
 <p align="center">
