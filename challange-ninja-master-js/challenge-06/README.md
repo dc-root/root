@@ -17,7 +17,6 @@ estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
 var teams = ['Atlético-MG', 'Athletic Club', 'Cruzeiro', 'Caldense', 'América-MG'];
-
 console.log( 'Times que estão participando do campeonato:', teams);
 
 /*
@@ -46,15 +45,24 @@ function showTeamPosition(Place) {
 
 /*
 Escolha 4 times do campeonato selecionado e mostre a posição dele, usando a
-função acima. Entre esses 4, adicione 1 que não esteja entre os 5 primeiros.
+fusnção acima. Entre eses 4, adicione 1 que não esteja entre os 5 primeiros.
 */
-foshowTeamPosition(1);
+foshowTeamPosition(1); // 'Atlético-MG'
+foshowTeamPosition(4); // 'Caldense'
+foshowTeamPosition(3); // 'Cruzeiro'
+foshowTeamPosition(2); // 'Athletic Club'
+foshowTeamPosition(8); // 'Não temos a informação do time que está nessa posição!'
 
 /*
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while".
 */
-?
+
+var number = 20;
+while (number <= 30) {
+    console.log(number);
+    number++;
+}
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:
