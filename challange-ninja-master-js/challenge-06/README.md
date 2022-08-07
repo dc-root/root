@@ -76,10 +76,41 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
     a frase:
     "Não temos o equivalente hexadecimal para [COR]."
 */
-?
+function convertToHex(CorName) {
+    var cor = CorName.toLowerCase();
+    switch(CorName) {
+        case 'azul':
+            return `O hexadecimal para a cor ${cor} é #0000FF.`;
+            break;
+        case 'preto':
+            return `O hexadecimal para a cor ${cor} é #000000.`;
+            break;
+        case 'vermelho':
+            return `O hexadecimal para a cor ${cor} é #FF0000.`;
+            break;
+        case 'roxo':
+            return `O hexadecimal para a cor ${cor} é #A020F0.`;
+            break;
+        case 'rosa':
+            return `O hexadecimal para a cor ${cor} é #FFCBDB.`;
+            break;
+        default:
+            return `Não temos o equivalente hexadecimal para ${cor}.`
+    }
+}
 
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
-?
+
+convertToHex('azul');       // 'O hexadecimal para a cor cazul é #0000FF.'
+convertToHex('Rosa');       // 'O hexadecimal para a cor Rosa é #FFCBDB.'
+convertToHex('Vermelho');   // 'O hexadecimal para a cor Vermelho é #FF0000.'
+convertToHex('Cinza');      // 'Não temos o equivalente hexadecimal para Cinza'
+convertToHex('Amarelo');    // 'Não temos o equivalente hexadecimal para Amarelo'
+convertToHex('Laranja');    // 'Não temos o equivalente hexadecimal para Laranja'
+convertToHex('Roxo');       // 'O hexadecimal para a cor Roxo é #A020F0.'
+convertToHex('Branco');     // 'Não temos o equivalente hexadecimal para Branco'
+convertToHex('Preto');      // 'O hexadecimal para a cor Preto é #000000.'
+
 ```
