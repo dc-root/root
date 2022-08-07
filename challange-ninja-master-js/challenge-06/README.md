@@ -16,9 +16,9 @@ Os elementos serão nomes de times do campeonato escolhido, e os nomes devem
 estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
-?
+var teams = ['Atlético-MG', 'Athletic Club', 'Cruzeiro', 'Caldense', 'América-MG'];
 
-console.log( 'Times que estão participando do campeonato:', teams );
+console.log( 'Times que estão participando do campeonato:', teams);
 
 /*
 Crie uma função chamada `showTeamPosition` com as seguintes características:
