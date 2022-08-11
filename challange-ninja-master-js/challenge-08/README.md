@@ -63,20 +63,22 @@ function calculator(operator) {
     let resultado=0;
     switch (operator) {
       case '+':
-        resultado = (num1 + num2);
+        return `Resultado da operação: ${num1} ${operator} ${num2} = ${(num1 + num2)}`;
         break;
       case '-':
-        resultado = (num1 - num2);
+        return `Resultado da operação: ${num1} ${operator} ${num2} = ${(num1 - num2)}`;
         break;
       case '/':
-        resultado = (num1 / num2);
+        return `Resultado da operação: ${num1} ${operator} ${num2} = ${(num1 / num2)}`;
         break;
       case '*':
-        resultado = (num1 * num2);
+        return `Resultado da operação: ${num1} ${operator} ${num2} = ${(num1 * num2)}`;
         break;
+      case '%':
+        return `Resultado da operação: ${num1} ${operator} ${num2} = ${(num1 % num2)}`;
+      default:
+        return 'Operação inválida.';
     }
-
-    return `Resultado da operação: ${num1} ${operator} ${num2} = ${resultado}`
   };
 }
 
@@ -101,6 +103,7 @@ correto por parâmetro para cada uma delas.
 let subtraction = calculator('-'),
     multiplication = calculator('*'),
     division = calculator('/');
+    mod = calcultator('%');
 
 /*
 Faça uma operação com cada uma das funções criadas acima, mostrando o resultado
@@ -110,5 +113,6 @@ no console.
 console.log(subtraction(10, 5));    // 'Resultado da operação: 10 - 5 = 5'
 console.log(multiplication(5, 5));  // 'Resultado da operação: 5 * 5 = 25'
 console.log(division(100, 2));      // 'Resultado da operação: 100 / 2 = 50'
+console.log(mod(15, 2));            // 'Resultado da operação: 15 % 2 = 0.5'
 
 ```
