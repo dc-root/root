@@ -1,7 +1,7 @@
-/*
-Envolva todo o conteúdo desse arquivo em uma IIFE.
-*/
+# Desafio da semana #11
 
+```js
+(function() {
 /*
 Crie um objeto chamado `person`, com as propriedades:
     `name`: String
@@ -98,3 +98,5 @@ console.log( '\nAgora em ordem alfabética:' );
 Mostre todos os itens do array acima, odenados alfabéticamente.
 */
 // ?
+})();
+```
