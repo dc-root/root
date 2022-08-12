@@ -89,7 +89,7 @@ Essa função deverá retornar a frase:
 'Operação "[OPERATOR]" não permitida!'
 */
 function showErrorMessage(operator) {
-    return `Operação "${operator}" não permitida!`; 
+    return `Operação "${operator}" não permitida!`;
 }
 
 /*
