@@ -1,6 +1,7 @@
 # Desafio da semana #9
 
 ```js
+(function() {
 /*
 Analise as funções abaixo (`myFunction`, `myFunction2` e `myFunction3`, e
 ajuste o posicionamento das variáveis e funções internas, para que os códigos
@@ -122,5 +123,7 @@ division((num1, num2) => { return (num1/num2)}); // 50
 
 console.log( 'O resto da divisão é:' );
 mod((num1, num2) => { return (num1%num2)}); // 1
+
+})();
 
 ```
