@@ -109,7 +109,7 @@ variável chamada "sum", que receba a função "calculator", passando por
 parâmetro a variável que recebeu o sinal da operação.
 */
 operationSignal = '+';
-let sum = calculator(operationSignal);
+let sum = calculadora(operationSignal);
 
 /*
 PASSO 3:
@@ -139,7 +139,7 @@ divisão e resto. Crie variáveis com os nomes "subtraction",
 */
 // SUBTRACTION
 operationSignal = '-';
-let subtraction = calculator(operationSignal);
+let subtraction = calculadora(operationSignal);
 
 if(!subtraction) {
     console.log(showErrorMessage(operationSignal));
@@ -151,7 +151,7 @@ if(!subtraction) {
 
 // MULTIPLICATION
 operationSignal = '*';
-let multiplication = calculator(operationSignal);
+let multiplication = calculadora(operationSignal);
 
 if(!multiplication) {
     console.log(showErrorMessage(operationSignal));
@@ -163,7 +163,7 @@ if(!multiplication) {
 
 // DIVISION
 operationSignal = '/';
-let division = calculator(operationSignal);
+let division = calculadora(operationSignal);
 
 if(!division) {
     console.log(showErrorMessage(operationSignal));
@@ -175,7 +175,7 @@ if(!division) {
 
 // MOD
 operationSignal = '%';
-let mod = calculator(operationSignal);
+let mod = calculadora(operationSignal);
 
 if(!mod) {
     console.log(showErrorMessage(operationSignal));
@@ -190,7 +190,7 @@ Repita o PASSO 2 novamente, mas passando um operador inválido, para ver se
 a mensagem de erro será mostrada no console.
 */
 operationSignal = '?';
-let operacao = calculator(operationSignal);
+let operacao = calculadora(operationSignal);
 
 if(!operacao) {
     console.log(showErrorMessage(operationSignal));
@@ -200,4 +200,4 @@ if(!operacao) {
     console.log(showOperationMessage(operationSignal, number1, number2), operacao(number1, number2));
 }
 })();
-```
+``` 
