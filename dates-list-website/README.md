@@ -60,7 +60,7 @@ Obs: Em questão de datas comemorativas não coloquei todas... lembrando que fiz
 
 ### Para testar a aplicação segue o link:
 
-[![Vercel](https://img.shields.io/static/v1?label=&message=VERCEL&color=black&style=for-the-badge&logo=VERCEL)](https://root-phi.vercel.app/)
+[![Vercel](https://img.shields.io/static/v1?label=&message=VERCEL&color=black&style=for-the-badge&logo=VERCEL)](https://data-list-sigma.vercel.app/)
 
 **As datas que implementei Foram:**
 - "01 / 01 / 2021" ➬ Ano novo 🎉 🧨
