@@ -6,10 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#F2DAE7'
+                    },
+                    fontFamily: {
+                        titulo: ['Vast Shadow', 'cursive']
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body class="bg-[url('https://cdn.pixabay.com/photo/2019/05/04/16/54/gambling-4178457_960_720.jpg')] bg-center bg-no-repeat bg-cover bg-fixed h-screen">
-    <div class="p-10 m-auto my-10 bg-gradient-to-r from-pink-300/70 to-slate-400/70 w-3/5 backdrop-blur-sm">
-        <p class="text-3xl font-black">Diego</p>
-        <p class="text-base font-medium">Desenvolvedor Front-end</p>
+    
+    <div class="flex flex-col p-10 justify-center gap-2.5 m-auto my-10 bg-gradient-to-r from-pink-300/70 to-slate-400/70 w-2/5 min-w-max backdrop-blur-sm">
+        <p class="text-6xl font-black font-titulo text-white/80">Gabriela</p>
+        <p class="text-4xl text-base font-medium">Desenvolvedora Front-end</p>
     </div>
 </body>
