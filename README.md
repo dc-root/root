@@ -7,5 +7,5 @@
 </p>
 
 <h5 align="center">
-  &copy;2022 - <a href="https://github.com/dc7devs/">Diego Silva</a>
+  &copy;2023 - <a href="https://github.com/dc7devs/">Diego Silva</a>
 </h5>
