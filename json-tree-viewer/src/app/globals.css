@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply overflow-auto scroll-smooth;
+}
+
+::marker {
+  color: rgba(78, 149, 144, .30) !important;
+}
