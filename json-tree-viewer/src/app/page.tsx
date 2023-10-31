@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import PreComp from "./components";
 
 export default function Home() {
@@ -27,13 +27,23 @@ export default function Home() {
         try {
           setIsLoadingFile(true);
           setFileName(file.name);
+          
+          const reader = new FileReader();
+          
+          reader.onload = (event: any) => {
+            const content = event.target.result;
+            const parsedData = JSON.parse(content);
+            
+            setJsonData(parsedData)
+            setError({ isError: false, errorMessage: '' });
+            setIsLoadingFile(false);
+          };
+          
+          reader.onerror = (event: any) => {
+            throw Error(event.target.error);
+          };
 
-          const content = await readFileAsync(file);
-          const parsedData = JSON.parse(content);
-
-          setJsonData(parsedData)
-          setError({ isError: false, errorMessage: '' });
-          setIsLoadingFile(false);
+          reader.readAsText(file);
         } catch (error: any) {
             setError({ isError: true, errorMessage: error.message });
             setFileName('');
@@ -42,19 +52,6 @@ export default function Home() {
         }
       }
     }
-  };
-
-  const readFileAsync = (file: any): any => {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onload = (event: any) => {
-        resolve(event.target.result);
-      };
-      reader.onerror = (event: any) => {
-        reject(event.target.error);
-      };
-      reader.readAsText(file);
-    });
   };
 
   return (<>
