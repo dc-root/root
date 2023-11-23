@@ -28,6 +28,15 @@ public class Main {
 
         Conta contaDiego = new Conta();
         int option = 0;
+        String menu = """
+        
+        Operações
+        
+        1- Consultar saldos
+        2- Recber valor
+        3 - Transferir valor
+        4 - sair
+        """;
 
         System.out.println(
             "***********************\n"+
@@ -38,15 +47,9 @@ public class Main {
             "***********************"
         );
 
-        do {
-            System.out.println("\nOperações\n");
-            System.out.println(
-                "1- Consultar saldos\n"+
-                "2- Recber valor\n"+
-                "3 - Transferir valor\n"+
-                "4 - sair\n"
-            );
+        while(option != 4) {
 
+            System.out.println(menu);
             System.out.print("Digite a opção desejada: ");
             option = leitor.nextInt();
 
@@ -62,9 +65,10 @@ public class Main {
                     System.out.print("\nInforme o valor que deseja transferir: ");
                     contaDiego.transferirvalor(leitor.nextDouble());
                     break;
+                case 4: break;
                 default:
                     System.out.println("Opçao invalida!");
             }
-        } while(option != 4);
+        }
     }
 }
