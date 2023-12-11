@@ -18,7 +18,6 @@ public class Main {
                 .setPrettyPrinting()
                 .create();
         int option = 0;
-        String optionSelected = "";
         Address dadosEndereco = null;
         List<Address> dadoListaEndereco = new ArrayList<>();
 
@@ -54,9 +53,15 @@ public class Main {
                             dadoListaEndereco.add(new Address(endereco));
                         }
 
-                        System.out.println(dadoListaEndereco);
+                        if(dadoListaEndereco.size() != 0) {
+                            System.out.println("----------------- encontrados");
+                            dadoListaEndereco.forEach((adress) -> {
+                                System.out.println("cep: "+adress.getCep());
+                            });
 
-                        optionSelected = "cep";
+                            System.out.println("-----------------------------");
+                        } else System.out.println("\n[nada encotrado]\n");
+
                         break;
                     case 2:
                         System.out.print("\nInsira o CEP (ex.: 99999999): ");
@@ -70,17 +75,20 @@ public class Main {
                         dadosEndereco = new Address(endereco);
 
                         System.out.println(dadosEndereco);
-                        optionSelected = "endereço";
                         break;
                     case 0: break;
                     default: System.out.println("Opção invalida!");
                 }
             } while (option != 0);
 
-            FileWriter escrita = new FileWriter("enderecos.json");
-            if(optionSelected.equals("cep")) escrita.write(gson.toJson(dadoListaEndereco));
-            if(optionSelected.equals("endereço")) escrita.write(gson.toJson(dadosEndereco));
+            FileWriter escrita = new FileWriter("endereco.json");
+            FileWriter escritaLista = new FileWriter("enderecos.json");
+
+            escrita.write(gson.toJson(dadosEndereco));
+            escritaLista.write(gson.toJson(dadoListaEndereco));
+
             escrita.close();
+            escritaLista.close();
         } catch (Exception e) {
             System.out.println("Houve algum erro!");
             System.out.println(e.getMessage());

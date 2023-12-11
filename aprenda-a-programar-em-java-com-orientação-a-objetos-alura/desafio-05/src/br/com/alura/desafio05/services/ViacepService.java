@@ -5,10 +5,15 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class ViacepService {
-    public static HttpResponse<String> getAddressByCEP(String cep) throws IOException, InterruptedException {
-        String endpoint = String.format("https://viacep.com.br/ws/%s", cep);
+    public static HttpResponse<String> getAddressByCEP(String cepInput) throws IOException, InterruptedException {
+        String cep = cepInput.replaceAll("-", "");
+        if (!cep.matches("\\d{8,}")) throw new IllegalArgumentException("CEP deve ter pelo menos 8 digitos");
+
+        String endpoint = String.format("https://viacep.com.br/ws/%s/json", cep);
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -20,7 +25,7 @@ public class ViacepService {
     public static HttpResponse<String> getListAddress(String uf, String city, String street) throws IOException, InterruptedException {
         if(!uf.matches("[A-Za-z]{2,3}")) throw new IOException("O formato do campo estado não foi reconhecido!");
 
-        String endpoint = String.format("https://viacep.com.br/ws/%s/%s/%s/json", uf, formatCity(city), formatStreet(street));
+        String endpoint = "https://viacep.com.br/ws/"+uf+"/"+formatCity(city)+"/"+formatStreet(street)+"/json";
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -30,38 +35,17 @@ public class ViacepService {
     }
 
     private static String formatCity(String city) {
-        String formattedCity = capitalizeEachWord(city.toLowerCase());
-        formattedCity = formattedCity.replace(" ", "%20");
-
-        System.out.println(formattedCity);
-
-        return formattedCity;
+        return Arrays.stream(city.split("\\s+"))
+                .map(word -> capitalizeFirstLetter(word.toLowerCase()))
+                .collect(Collectors.joining("%20"));
     }
     public static String formatStreet(String street) {
-        String formattedStreet = capitalizeEachWord(street.toLowerCase());
-        formattedStreet = formattedStreet.replace(" ", "+");
-
-        System.out.println(formattedStreet);
-
-        return formattedStreet;
+        return Arrays.stream(street.split("\\s+"))
+                .map(word -> capitalizeFirstLetter(word.toLowerCase()))
+                .collect(Collectors.joining("+"));
     }
-    private static String capitalizeEachWord(String input) {
-        StringBuilder result = new StringBuilder();
-        boolean capitalizeNext = true;
 
-        for (char ch : input.toCharArray()) {
-            if (Character.isWhitespace(ch)) {
-                capitalizeNext = true;
-            } else if (capitalizeNext) {
-                result.append(Character.toTitleCase(ch));
-                capitalizeNext = false;
-            } else {
-                result.append(ch);
-            }
-        }
-
-        System.out.println(result.toString());
-
-        return result.toString();
+    private static String capitalizeFirstLetter(String word) {
+        return word.substring(0, 1).toUpperCase() + word.substring(1);
     }
 }
